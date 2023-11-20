@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import formatDate from '../utils/formatDate';
 import LoadingIcon from '../utils/Loadingicon';
 
-function ViewAttendance({ selectedSemester, selectedSubject, selectedTimeSlot, selectedDate }) {
+function ViewAttendance({ selectedSemester, selectedSubject }) {
     const [data, setData] = useState([]);
     const [loading, setLoading] = useState(false);
     const [ref, setRef] = useState(0);
